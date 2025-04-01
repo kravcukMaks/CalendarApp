@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YzT5da8212UyPVfkplkBqTliOOUI7uRxYBR7pVWei/Q=",
+  "Hash": "hKEK5yR9Rz1UpUoh67Rv6F9BHQ+3WXe+iPPaf/zQWqA=",
   "Source": "CalendarApp1",
   "BasePath": "_content/CalendarApp1",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\UserHome\\source\\repos\\CalendarApp1\\CalendarApp1\\wwwroot\\js\\cookie-consent.js",
+      "SourceId": "CalendarApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UserHome\\source\\repos\\CalendarApp1\\CalendarApp1\\wwwroot\\",
+      "BasePath": "_content/CalendarApp1",
+      "RelativePath": "js/cookie-consent#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h01jopgxay",
+      "Integrity": "HxhIfuE80OL4uKHAKzhEMixzZ0QGLMGehNutPKo5/c4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cookie-consent.js"
     },
     {
       "Identity": "C:\\Users\\UserHome\\source\\repos\\CalendarApp1\\CalendarApp1\\wwwroot\\js\\site.js",
@@ -1645,6 +1666,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/cookie-consent.h01jopgxay.js",
+      "AssetFile": "C:\\Users\\UserHome\\source\\repos\\CalendarApp1\\CalendarApp1\\wwwroot\\js\\cookie-consent.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HxhIfuE80OL4uKHAKzhEMixzZ0QGLMGehNutPKo5/c4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 16:45:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h01jopgxay"
+        },
+        {
+          "Name": "label",
+          "Value": "js/cookie-consent.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HxhIfuE80OL4uKHAKzhEMixzZ0QGLMGehNutPKo5/c4="
+        }
+      ]
+    },
+    {
+      "Route": "js/cookie-consent.js",
+      "AssetFile": "C:\\Users\\UserHome\\source\\repos\\CalendarApp1\\CalendarApp1\\wwwroot\\js\\cookie-consent.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "601"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HxhIfuE80OL4uKHAKzhEMixzZ0QGLMGehNutPKo5/c4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 16:45:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HxhIfuE80OL4uKHAKzhEMixzZ0QGLMGehNutPKo5/c4="
         }
       ]
     },

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\UserHome\\source\\repos\\CalendarApp1\\CalendarApp1\\wwwroot\\js\\cookie-consent.js",
+      "PackagePath": "staticwebassets\\js\\cookie-consent.js"
+    },
+    {
       "Id": "C:\\Users\\UserHome\\source\\repos\\CalendarApp1\\CalendarApp1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
