@@ -1,0 +1,89 @@
+﻿@model IEnumerable<CalendarApp1.Models.CalendarEvent>
+
+@{
+    ViewData["Title"] = "Calendar";
+}
+
+<h1>Calendar</h1>
+
+<div id="calendar">
+    @foreach (var calendarEvent in Model)
+    {
+        <div>
+            <strong>@calendarEvent.Date.ToShortDateString()</strong>: @calendarEvent.EventDescription
+        </div>
+    }
+</div>
+
+<form method="post" action="/Calendar/AddEvent">
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required />
+
+    <label for="description">Event:</label>
+    <textarea id="description" name="description" required></textarea>
+
+    <button type="submit">Add Event</button>
+</form>
+
+<h2>Календар подій</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Додати подію</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Дата</th>
+            <th>Назва</th>
+            <th>Категорія</th>
+            <th>Нагадування</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var e in Model)
+        {
+            <tr>
+                <td>@e.EventDate.ToShortDateString()</td>
+                <td>@e.Title</td>
+                <td>@e.Category?.Name</td>
+                <td>
+                    @if (e.Reminders != null && e.Reminders.Any())
+                    {
+                        foreach (var reminder in e.Reminders)
+                        {
+                            <span>@reminder.ReminderTime.ToShortTimeString()</span>
+
+                            <br />
+                        }
+                    }
+                    else
+                    {
+                        <span>Немає</span>
+                    }
+                </td>
+                <td>
+                    <form asp-action="Delete" asp-route-id="@e.Id" method="post">
+                        <button type="submit" class="btn btn-danger">Видалити</button>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <strong>Коментарі:</strong>
+                    <ul>
+                        @foreach (var comment in e.Comments)
+                        {
+                            <li>@comment.CommentText (@comment.CreatedAt)</li>
+                        }
+                    </ul>
+
+                    <form asp-action="AddComment" method="post">
+                        <input type="hidden" name="eventId" value="@e.Id" />
+                        <input type="text" name="commentText" class="form-control" placeholder="Додати коментар" required />
+                        <button type="submit" class="btn btn-secondary">Надіслати</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

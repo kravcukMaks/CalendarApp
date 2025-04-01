@@ -1,0 +1,56 @@
+####################################################################################################
+Package:Microsoft.EntityFrameworkCore
+Version:8.0.2
+project URL:https://docs.microsoft.com/ef/core/
+Description:Entity Framework Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations. EF Core works with SQL Server, Azure SQL Database, SQLite, Azure Cosmos DB, MySQL, PostgreSQL, and other databases through a provider plugin API.
+
+Commonly Used Types:
+Microsoft.EntityFrameworkCore.DbContext
+Microsoft.EntityFrameworkCore.DbSet
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:Microsoft.EntityFrameworkCore.Design
+Version:8.0.2
+project URL:https://docs.microsoft.com/ef/core/
+Description:Shared design-time components for Entity Framework Core tools.
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:Microsoft.EntityFrameworkCore.Tools
+Version:8.0.2
+project URL:https://docs.microsoft.com/ef/core/
+Description:Entity Framework Core Tools for the NuGet Package Manager Console in Visual Studio.
+
+Enables these commonly used commands:
+Add-Migration
+Bundle-Migration
+Drop-Database
+Get-DbContext
+Get-Migration
+Optimize-DbContext
+Remove-Migration
+Scaffold-DbContext
+Script-Migration
+Update-Database
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:Pomelo.EntityFrameworkCore.MySql
+Version:8.0.2
+project URL:https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql
+Description:Pomelo's MySQL database provider for Entity Framework Core.
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
+####################################################################################################
+Package:Swashbuckle.AspNetCore
+Version:8.1.0
+project URL:https://github.com/domaindrivendev/Swashbuckle.AspNetCore
+Description:Swagger tools for documenting APIs built on ASP.NET Core
+licenseUrl:https://licenses.nuget.org/MIT
+license Type:MIT
+
