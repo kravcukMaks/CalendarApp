@@ -112,3 +112,4 @@ C:\Users\UserHome\source\repos\CalendarApp1\CalendarApp1\bin\Debug\net8.0\Swashb
 C:\Users\UserHome\source\repos\CalendarApp1\CalendarApp1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\UserHome\source\repos\CalendarApp1\CalendarApp1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\UserHome\source\repos\CalendarApp1\CalendarApp1\obj\Debug\net8.0\CalendarApp1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\UserHome\source\repos\CalendarApp1\CalendarApp1\bin\Debug\net8.0\package.json
